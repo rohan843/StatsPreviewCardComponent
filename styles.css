@@ -7,27 +7,59 @@
   color: hsl(228, 45%, 44%);
 }
 
-body{
+body {
   background-color: hsl(233, 47%, 7%);
   margin: 0;
 }
 
-main{
+main {
   background-color: hsl(244, 38%, 16%);
   display: flex;
   width: 80%;
   padding: 0;
-  /* COMBAK: Change colors according to specs */
-  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1.3em;
 }
 
-.image{
+h1 {
+  font-family: 'Inter', sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+h1 span {
+  color: hsl(277, 64%, 61%);
+}
+
+.subtitle {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 0.8rem;
+}
+
+.stat {
+  font-family: 'Inter', sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.image {
   padding: 0;
   width: 50%;
   margin: 0;
 }
 
-img{
+.statRow{
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
   margin: 0;
 }
 
