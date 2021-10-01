@@ -21,19 +21,20 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 1.3em;
+  border-radius: 0.4em;
   justify-content: space-between;
 }
 
 .text{
   display: flex;
   flex-direction: column;
-  padding: 6em;
+  padding: 4em;
 }
 
 h1 {
   font-family: 'Inter', sans-serif;
   color: hsl(0, 0%, 100%);
+  font-size: 2.5rem;
 }
 
 h1 span {
